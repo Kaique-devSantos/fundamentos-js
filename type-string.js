@@ -10,4 +10,11 @@ const meuNome = "Leonardo";
 
 console.log(citacao + meuNome)
 
+const cidade = "belo horizonte";
+const input = "Belo Horizonte";
 
+console.log(cidade === input); // false
+
+const inputMinusculo = input.toLowerCase(); //aqui transformamos o conteudo da string em minusculo 
+
+console.log(cidade === inputMinusculo); // true
